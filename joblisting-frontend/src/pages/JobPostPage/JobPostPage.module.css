@@ -1,0 +1,24 @@
+.jobPostPage {
+    display: flex;
+    overflow: hidden;
+}
+
+.imageContainer {
+    width: 40vw;
+    height: 100vh;
+    position: relative;
+}
+.jobdescriptionImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.jobPostImageText {
+    position: absolute;
+    top: 2rem;
+    left:6rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}

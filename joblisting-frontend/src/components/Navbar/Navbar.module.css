@@ -1,0 +1,55 @@
+.container {
+    background-color:#ED5353;
+    display: flex;
+    padding: 1.25rem 3.25rem;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.logo {
+    color: #fff;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.profileImage {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.buttonLogin {
+    border-radius: 7px;
+    width: 100px;
+    height: 36px;
+    color: #fff;
+    background-color: #ED5353;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+}
+
+.buttonReg {
+    border-radius: 7px;
+    width: 100px;
+    height: 36px;
+    color: #ED5353;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}

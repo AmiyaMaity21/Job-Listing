@@ -1,0 +1,126 @@
+.jobDescriptonContainer {
+    background-color: #fff;
+    width: 60vw;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 4rem;
+}
+
+.head {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.formGroup {
+    display: flex;
+}
+
+.formGroup label {
+    margin-top: 0.8rem;
+    font-weight: 500;
+    width: 10rem;
+}
+
+.input {
+    width: calc(100% - 11rem);
+    height: 30px;
+    padding: 0 8px;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    border: 2px solid #C2C2C2;
+    outline: none;
+    font-family: "DM Sans", sans-serif;
+}
+
+.skillInput {
+    width: calc(100% - 10rem);
+    height: 30px;
+    padding: 0 8px;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    border: 2px solid #C2C2C2;
+    outline: none;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+.select {
+    width: calc(35% - 10rem);
+    height: 30px;
+    padding: 0 8px;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    border: 2px solid #C2C2C2;
+    outline: none;
+    font-family: "DM Sans", sans-serif;
+}
+
+.textarea {
+    width: calc(100% - 11rem);
+    height: 3rem;
+    padding: 4px 8px;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    border: 2px solid #C2C2C2;
+    resize: none;
+    outline: none;
+    font-family: "DM Sans", sans-serif;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.postBtn {
+    padding: 8px 20px;
+    background-color: #ED5353;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+}
+
+.button span {
+    margin: 4px;
+}
+
+.button_cancel {
+    padding: 8px 36px;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #C2C2C2;
+    border: 2px solid #C2C2C2;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-left: 9rem;
+}
+
+.items p {
+    margin-left: 1rem;
+    padding: 0.1rem 0.8rem;
+    background-color:#FFEEEE;
+}
+
+.items button {
+    background-color: #FF6B6B;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    border: none;
+}
