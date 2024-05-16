@@ -1,22 +1,24 @@
 
 # Job-Listing
 
-Job-List is an online platform where job aspirants can view the list of job vacancies. online Job-Listing platform allow recruiters to use some features without charge, offering options for free job postings.
+Job-Listing is an online platform where job aspirants can view the list of job vacancies. online Job-Listing platform allow recruiters to use some features without charge, offering options for free job postings.
 
 
 ## Features
 
+- List all job posted
+
 - View job details
 
-- Search job
+- Search job by Job position
 
-- Filter job by Job position
+- Filter based on skills
 
 - Login and register
 
-- Add job
+- Add job post
 
-- Edit job
+- Edit job post
 
 
 ## Prerequisite
